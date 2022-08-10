@@ -8,7 +8,7 @@
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 20px 40px 20px 40px;
+    padding: 23px 40px 23px 40px;
     background-color: #bdccea;
 }
 
@@ -33,7 +33,7 @@ ul {
     align-items: center;
     padding: 93px 20px 93px 20px;
     font-size: 80px;
-    background-color: #E5E7EB;
+    background-color: #e9ecf0;
 }
 
 .bannerLeft {
@@ -51,4 +51,28 @@ ul {
 
 .shortDesc {
     font-size: 33px;
+}
+
+.sections {
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    margin-right: 500px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.titles {
+    padding-top: 70px;
+    padding-bottom: 13px;
+    font-size: 55px;
+    font-weight: 500;
+}
+
+p {
+    font-size: 30px;
 }
