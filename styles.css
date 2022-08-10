@@ -8,31 +8,28 @@
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 23px 40px 23px 40px;
+    padding: 23px 40px;
     background-color: #bdccea;
 }
 
-a {
-    text-decoration: none;
-    color: black;
-}
-
-ul {
+ul.links {
     list-style-type: none;
     display: flex;
-}
-
-.links {
     gap: 35px;
     font-size: 34px;
+}
+
+a.plainAnch {
+    text-decoration: none;
+    color: black;
 }
 
 .banner {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 93px 20px 93px 20px;
-    font-size: 80px;
+    padding: 75px 20px;
+    font-size: 75px;
     background-color: #e9ecf0;
 }
 
@@ -50,14 +47,14 @@ ul {
 }
 
 .shortDesc {
-    font-size: 33px;
+    font-size: 29px;
 }
 
 .sections {
     display: flex;
     flex-direction: column;
     margin-left: 200px;
-    margin-right: 500px;
+    margin-right: 450px;
 }
 
 .info {
@@ -70,9 +67,26 @@ ul {
     padding-top: 70px;
     padding-bottom: 13px;
     font-size: 55px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
-p {
-    font-size: 30px;
+p,
+.projList {
+    font-size: 28px;
+}
+
+.projList {
+    padding-top: 30px;
+    margin-left: 75px;
+}
+
+.projList > li {
+    padding-bottom: 13px;
+}
+
+.copyEmail {
+    padding:10px;
+    font-size: 20px;
+    border-radius: 10px;
+    font-weight: 500;
 }
