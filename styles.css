@@ -10,13 +10,16 @@
     justify-content: space-between;
     padding: 23px 40px;
     background-color: #bdccea;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
 
 ul.links {
     list-style-type: none;
     display: flex;
     gap: 35px;
-    font-size: 34px;
+    font-size: 30px;
 }
 
 a.plainAnch {
@@ -29,7 +32,7 @@ a.plainAnch {
     justify-content: space-around;
     align-items: center;
     padding: 75px 20px;
-    font-size: 75px;
+    font-size: 70px;
     background-color: #e9ecf0;
 }
 
@@ -55,6 +58,7 @@ a.plainAnch {
     flex-direction: column;
     margin-left: 200px;
     margin-right: 450px;
+    margin-bottom: 40px;
 }
 
 .info {
@@ -63,11 +67,18 @@ a.plainAnch {
     align-items: flex-start;
 }
 
-.titles {
+h5.titles {
     padding-top: 70px;
     padding-bottom: 13px;
     font-size: 55px;
     font-weight: 600;
+}
+
+h5.offset {
+    display: block;
+    position: relative;
+    top: -30px;
+    visibility: hidden;
 }
 
 p,
