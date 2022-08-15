@@ -2,4 +2,4 @@
 
 Built a personal site to include on resume.
 
-Viewable at: royminato.com
+Viewable at: https://royminato.com/
