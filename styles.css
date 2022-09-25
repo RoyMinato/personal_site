@@ -105,3 +105,8 @@ p,
     border-radius: 10px;
     font-weight: 500;
 }
+
+.infoRep {
+    display: flex;
+    justify-content: center;
+}
